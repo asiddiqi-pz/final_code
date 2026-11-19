@@ -1,3 +1,8 @@
 data04.mat
 rec04_BehavElectrDataLFP.mat
 get_data.py
+__pycache__/get_data.cpython-314.pyc
+beh04.mat
+rec04.lfp
+rec04_lfps.mat
+rec04_lfps.npz
