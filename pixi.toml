@@ -1,0 +1,26 @@
+[workspace]
+name = "final-project"
+description = "Dev environment for Final_Project.ipynb (LFP / PCA / wavelet analysis)"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-arm64"]
+
+# Versions pinned to match flake.lock (nixpkgs rev e21fec3)
+[dependencies]
+python = "==3.14.10"
+
+# Jupyter / VS Code kernel support
+ipykernel = "==7.3.0"
+ipywidgets = "==8.1.9"
+jupyter = "==1.1.1"
+
+# Libraries imported in the notebook
+numpy = "==2.5.4"
+scipy = "==1.18.1"
+matplotlib = "==3.11.2"
+h5py = "==3.16.0"
+pywavelets = "==1.10.0"
+scikit-learn = "==1.9.1"
+requests = "==2.34.2"
+
+# the notebook uses `!curl ...` to download data
+curl = "*"
